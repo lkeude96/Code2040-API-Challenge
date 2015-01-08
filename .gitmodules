@@ -1,0 +1,12 @@
+[submodule "SwiftHTTP"]
+	path = SwiftHTTP
+	url = https://github.com/daltoniam/SwiftHTTP.git
+[submodule "Alamofire"]
+	path = Alamofire
+	url = https://github.com/Alamofire/Alamofire.git
+[submodule "Alamofire-SwiftyJSON-master/Alamofire"]
+	path = Alamofire-SwiftyJSON-master/Alamofire
+	url = https://github.com/Alamofire/Alamofire.git
+[submodule "Alamofire-SwiftyJSON-master/SwiftyJSON"]
+	path = Alamofire-SwiftyJSON-master/SwiftyJSON
+	url = https://github.com/SwiftyJSON/SwiftyJSON.git

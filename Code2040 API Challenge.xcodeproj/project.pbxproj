@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		881C8B381A5B88C20017B4DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881C8B371A5B88C20017B4DD /* AppDelegate.swift */; };
-		881C8B3A1A5B88C20017B4DD /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881C8B391A5B88C20017B4DD /* FirstViewController.swift */; };
-		881C8B3C1A5B88C20017B4DD /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881C8B3B1A5B88C20017B4DD /* SecondViewController.swift */; };
 		881C8B3F1A5B88C20017B4DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 881C8B3D1A5B88C20017B4DD /* Main.storyboard */; };
 		881C8B411A5B88C20017B4DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 881C8B401A5B88C20017B4DD /* Images.xcassets */; };
 		881C8B441A5B88C20017B4DD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 881C8B421A5B88C20017B4DD /* LaunchScreen.xib */; };
 		881C8B501A5B88C20017B4DD /* Code2040_API_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881C8B4F1A5B88C20017B4DD /* Code2040_API_ChallengeTests.swift */; };
+		881C8B5C1A5B8EF20017B4DD /* Stage1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881C8B5B1A5B8EF20017B4DD /* Stage1ViewController.swift */; };
+		881C8B5E1A5B8F330017B4DD /* Stage2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881C8B5D1A5B8F330017B4DD /* Stage2ViewController.swift */; };
+		8823F9F21A5DB1E8008F6146 /* AlamofireSwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8823F9ED1A5DB19A008F6146 /* AlamofireSwiftyJSON.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,20 +25,42 @@
 			remoteGlobalIDString = 881C8B311A5B88C20017B4DD;
 			remoteInfo = "Code2040 API Challenge";
 		};
+		8823F9EC1A5DB19A008F6146 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8823F9E51A5DB19A008F6146 /* Alamofire-SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A8AFB70F19D1401D0070765E;
+			remoteInfo = AlamofireSwiftyJSON;
+		};
+		8823F9EE1A5DB19A008F6146 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8823F9E51A5DB19A008F6146 /* Alamofire-SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A8AFB71A19D1401D0070765E;
+			remoteInfo = AlamofireSwiftyJSONTests;
+		};
+		8823F9F01A5DB1DA008F6146 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8823F9E51A5DB19A008F6146 /* Alamofire-SwiftyJSON.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A8AFB70E19D1401D0070765E;
+			remoteInfo = AlamofireSwiftyJSON;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		881C8B321A5B88C20017B4DD /* Code2040 API Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Code2040 API Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		881C8B361A5B88C20017B4DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		881C8B371A5B88C20017B4DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		881C8B391A5B88C20017B4DD /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		881C8B3B1A5B88C20017B4DD /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		881C8B3E1A5B88C20017B4DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		881C8B401A5B88C20017B4DD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		881C8B431A5B88C20017B4DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		881C8B491A5B88C20017B4DD /* Code2040 API ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Code2040 API ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		881C8B4E1A5B88C20017B4DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		881C8B4F1A5B88C20017B4DD /* Code2040_API_ChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code2040_API_ChallengeTests.swift; sourceTree = "<group>"; };
+		881C8B5B1A5B8EF20017B4DD /* Stage1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stage1ViewController.swift; sourceTree = "<group>"; };
+		881C8B5D1A5B8F330017B4DD /* Stage2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stage2ViewController.swift; sourceTree = "<group>"; };
+		8823F9E51A5DB19A008F6146 /* Alamofire-SwiftyJSON.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Alamofire-SwiftyJSON.xcodeproj"; path = "Alamofire-SwiftyJSON-master/Alamofire-SwiftyJSON.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8823F9F21A5DB1E8008F6146 /* AlamofireSwiftyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +85,7 @@
 		881C8B291A5B88C20017B4DD = {
 			isa = PBXGroup;
 			children = (
+				88A3EA431A5BC85000A51868 /* Deps */,
 				881C8B341A5B88C20017B4DD /* Code2040 API Challenge */,
 				881C8B4C1A5B88C20017B4DD /* Code2040 API ChallengeTests */,
 				881C8B331A5B88C20017B4DD /* Products */,
@@ -79,9 +104,9 @@
 		881C8B341A5B88C20017B4DD /* Code2040 API Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				881C8B5B1A5B8EF20017B4DD /* Stage1ViewController.swift */,
+				881C8B5D1A5B8F330017B4DD /* Stage2ViewController.swift */,
 				881C8B371A5B88C20017B4DD /* AppDelegate.swift */,
-				881C8B391A5B88C20017B4DD /* FirstViewController.swift */,
-				881C8B3B1A5B88C20017B4DD /* SecondViewController.swift */,
 				881C8B3D1A5B88C20017B4DD /* Main.storyboard */,
 				881C8B401A5B88C20017B4DD /* Images.xcassets */,
 				881C8B421A5B88C20017B4DD /* LaunchScreen.xib */,
@@ -115,6 +140,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8823F9E61A5DB19A008F6146 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8823F9ED1A5DB19A008F6146 /* AlamofireSwiftyJSON.framework */,
+				8823F9EF1A5DB19A008F6146 /* AlamofireSwiftyJSONTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88A3EA431A5BC85000A51868 /* Deps */ = {
+			isa = PBXGroup;
+			children = (
+				8823F9E51A5DB19A008F6146 /* Alamofire-SwiftyJSON.xcodeproj */,
+			);
+			name = Deps;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,6 +171,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				8823F9F11A5DB1DA008F6146 /* PBXTargetDependency */,
 			);
 			name = "Code2040 API Challenge";
 			productName = "Code2040 API Challenge";
@@ -182,6 +225,12 @@
 			mainGroup = 881C8B291A5B88C20017B4DD;
 			productRefGroup = 881C8B331A5B88C20017B4DD /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8823F9E61A5DB19A008F6146 /* Products */;
+					ProjectRef = 8823F9E51A5DB19A008F6146 /* Alamofire-SwiftyJSON.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				881C8B311A5B88C20017B4DD /* Code2040 API Challenge */,
@@ -189,6 +238,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		8823F9ED1A5DB19A008F6146 /* AlamofireSwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AlamofireSwiftyJSON.framework;
+			remoteRef = 8823F9EC1A5DB19A008F6146 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8823F9EF1A5DB19A008F6146 /* AlamofireSwiftyJSONTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = AlamofireSwiftyJSONTests.xctest;
+			remoteRef = 8823F9EE1A5DB19A008F6146 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		881C8B301A5B88C20017B4DD /* Resources */ = {
@@ -215,9 +281,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				881C8B3C1A5B88C20017B4DD /* SecondViewController.swift in Sources */,
 				881C8B381A5B88C20017B4DD /* AppDelegate.swift in Sources */,
-				881C8B3A1A5B88C20017B4DD /* FirstViewController.swift in Sources */,
+				881C8B5C1A5B8EF20017B4DD /* Stage1ViewController.swift in Sources */,
+				881C8B5E1A5B8F330017B4DD /* Stage2ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +302,11 @@
 			isa = PBXTargetDependency;
 			target = 881C8B311A5B88C20017B4DD /* Code2040 API Challenge */;
 			targetProxy = 881C8B4A1A5B88C20017B4DD /* PBXContainerItemProxy */;
+		};
+		8823F9F11A5DB1DA008F6146 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlamofireSwiftyJSON;
+			targetProxy = 8823F9F01A5DB1DA008F6146 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -340,6 +411,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Kinsley/Desktop,
+					"/Users/Kinsley/Downloads/SwiftHTTP-master/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/Alamofire-SwiftyJSON-master/Alamofire/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/Alamofire-SwiftyJSON-master/SwiftyJSON/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = "Code2040 API Challenge/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -350,6 +428,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Kinsley/Desktop,
+					"/Users/Kinsley/Downloads/SwiftHTTP-master/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/Alamofire-SwiftyJSON-master/Alamofire/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/Alamofire-SwiftyJSON-master/SwiftyJSON/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = "Code2040 API Challenge/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -409,6 +494,7 @@
 				881C8B551A5B88C20017B4DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		881C8B561A5B88C20017B4DD /* Build configuration list for PBXNativeTarget "Code2040 API ChallengeTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +503,7 @@
 				881C8B581A5B88C20017B4DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
