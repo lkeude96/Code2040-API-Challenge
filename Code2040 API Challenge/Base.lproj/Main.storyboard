@@ -141,6 +141,9 @@
                                 <state key="normal" title="fetch">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="fetchDataButton:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="VN7-mV-DEW"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jq8-hC-7jz">
                                 <rect key="frame" x="279" y="124" width="42" height="21"/>
@@ -159,6 +162,9 @@
                                 <state key="normal" title="find needles">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="findNeedleButton:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="BYD-JA-s64"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IUr-bP-h5j">
                                 <rect key="frame" x="279" y="317" width="42" height="21"/>
@@ -171,11 +177,19 @@
                                 <state key="normal" title="submit">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="submitButton:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="T2q-Pc-DHR"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Stage 2" image="second" id="cPa-gy-q4n"/>
+                    <connections>
+                        <outlet property="haystackLabel" destination="bzk-bF-Pxc" id="u1w-PG-3X7"/>
+                        <outlet property="needleIndexLabel" destination="IUr-bP-h5j" id="jOd-uf-WfN"/>
+                        <outlet property="needleLabel" destination="Jq8-hC-7jz" id="rke-Um-R0u"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
