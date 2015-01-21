@@ -15,6 +15,8 @@
 		881C8B5C1A5B8EF20017B4DD /* Stage1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881C8B5B1A5B8EF20017B4DD /* Stage1ViewController.swift */; };
 		881C8B5E1A5B8F330017B4DD /* Stage2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881C8B5D1A5B8F330017B4DD /* Stage2ViewController.swift */; };
 		8823F9F21A5DB1E8008F6146 /* AlamofireSwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8823F9ED1A5DB19A008F6146 /* AlamofireSwiftyJSON.framework */; };
+		88A9A6581A5F77FD00992696 /* Stage3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A9A6571A5F77FD00992696 /* Stage3ViewController.swift */; };
+		88A9A65B1A5F781900992696 /* Stage4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A9A65A1A5F781900992696 /* Stage4ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		881C8B5B1A5B8EF20017B4DD /* Stage1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stage1ViewController.swift; sourceTree = "<group>"; };
 		881C8B5D1A5B8F330017B4DD /* Stage2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stage2ViewController.swift; sourceTree = "<group>"; };
 		8823F9E51A5DB19A008F6146 /* Alamofire-SwiftyJSON.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Alamofire-SwiftyJSON.xcodeproj"; path = "Alamofire-SwiftyJSON-master/Alamofire-SwiftyJSON.xcodeproj"; sourceTree = "<group>"; };
+		88A9A6571A5F77FD00992696 /* Stage3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stage3ViewController.swift; sourceTree = "<group>"; };
+		88A9A65A1A5F781900992696 /* Stage4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stage4ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 			children = (
 				881C8B5B1A5B8EF20017B4DD /* Stage1ViewController.swift */,
 				881C8B5D1A5B8F330017B4DD /* Stage2ViewController.swift */,
+				88A9A6571A5F77FD00992696 /* Stage3ViewController.swift */,
+				88A9A65A1A5F781900992696 /* Stage4ViewController.swift */,
 				881C8B371A5B88C20017B4DD /* AppDelegate.swift */,
 				881C8B3D1A5B88C20017B4DD /* Main.storyboard */,
 				881C8B401A5B88C20017B4DD /* Images.xcassets */,
@@ -284,6 +290,8 @@
 				881C8B381A5B88C20017B4DD /* AppDelegate.swift in Sources */,
 				881C8B5C1A5B8EF20017B4DD /* Stage1ViewController.swift in Sources */,
 				881C8B5E1A5B8F330017B4DD /* Stage2ViewController.swift in Sources */,
+				88A9A6581A5F77FD00992696 /* Stage3ViewController.swift in Sources */,
+				88A9A65B1A5F781900992696 /* Stage4ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

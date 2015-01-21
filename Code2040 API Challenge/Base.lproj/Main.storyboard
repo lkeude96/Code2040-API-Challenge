@@ -89,7 +89,7 @@
         <!--Stage 3-->
         <scene sceneID="PVd-V3-DT2">
             <objects>
-                <viewController id="LuC-ya-uWB" sceneMemberID="viewController">
+                <viewController id="LuC-ya-uWB" customClass="Stage3ViewController" customModule="Code2040_API_Challenge" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fUk-UB-6oR"/>
                         <viewControllerLayoutGuide type="bottom" id="vtQ-We-q4V"/>
@@ -108,7 +108,7 @@
         <!--Stage 4-->
         <scene sceneID="rwB-Y1-Hbm">
             <objects>
-                <viewController id="D03-IS-kKX" sceneMemberID="viewController">
+                <viewController id="D03-IS-kKX" customClass="Stage4ViewController" customModule="Code2040_API_Challenge" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="gGo-gg-Nzw"/>
                         <viewControllerLayoutGuide type="bottom" id="XGU-A4-j9e"/>

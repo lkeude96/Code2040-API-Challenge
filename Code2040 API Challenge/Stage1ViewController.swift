@@ -32,7 +32,7 @@ class Stage1ViewController: UIViewController {
             ] as Dictionary
         
         
-        Alamofire.request(.POST, url, parameters: registrationInfo, encoding: .JSON)
+        Alamofire.request(.POST, url, parameters: registrationInfo)
             .responseJSON { (request, response, json, error) in
                 if(error != nil) {
                     println("Error: \(error)")
